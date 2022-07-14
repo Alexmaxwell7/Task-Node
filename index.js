@@ -17,7 +17,7 @@ con.on("open",()=>{
 app.use(express.json())
 //router
 app.use('/product',require('./router/product'));
-app.listen(8000,()=>{
+app.listen(5000,()=>{
     console.log("server Started")
 })
 
